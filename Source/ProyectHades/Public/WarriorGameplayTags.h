@@ -18,6 +18,8 @@ namespace  WarriorGameplayTags
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_LightAttack_Axe);
 			//Heavy
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_HeavyAttack_Axe);
+		//Abilities
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Roll);
 
 	
 	/** Player TAGS **/
@@ -38,6 +40,9 @@ namespace  WarriorGameplayTags
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Events_Hit_Pause);	
 		//Status
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_JumpToFinisher);
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rolling);
+		//Abilities
+	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Roll);
 		//SetByCaller
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_SetByCaller_AttackType_Light);
 	PROYECTHADES_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_SetByCaller_AttackType_Heavy);
